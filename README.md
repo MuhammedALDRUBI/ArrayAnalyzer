@@ -1,7 +1,7 @@
 # ArrayAnalyzer
 Class for Analyzing an array and handling its values
 
-##usable Methodes :
+## usable Methodes :
 
 ## HandleindexedArray(Array $indexedArray , $ElementPrefix = " " , $ElementSuffix = " " ,  $stringCapsulation = true) 
 ### this method handling indexed arraies ,  where  : 
