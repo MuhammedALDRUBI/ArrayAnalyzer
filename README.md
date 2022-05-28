@@ -3,7 +3,7 @@ Class for Analyzing an array and handling its values
 
 ## usable Methodes :
 
-## HandleindexedArray(Array $indexedArray , $ElementPrefix = " " , $ElementSuffix = " " ,  $stringCapsulation = true) 
+## indexedArrayPrinter(Array $indexedArray , $ElementPrefix = " " , $ElementSuffix = " " ,  $stringCapsulation = true) 
 ### this method handling indexed arraies ,  where  : 
 - @indexedArray is an indexed array that you want to adding an @ElementPrefix before its value , and want to adding an @ElementSuffix after that value
 - if @stringCapsulation is false the string values will not encapsulate in a double quotation (you will need it when you handling an sql query)
@@ -13,7 +13,7 @@ Class for Analyzing an array and handling its values
   $ElementPrefix = " Table_";
   $ElementSuffix = " , ";
   $stringCapsulation = false;
- echo $ArrayAnalyzerOb->HandleindexedArray($indexedArray , $ElementPrefix  , $ElementSuffix  ,  $stringCapsulation) ;
+ echo $ArrayAnalyzerOb->indexedArrayPrinter($indexedArray , $ElementPrefix  , $ElementSuffix  ,  $stringCapsulation) ;
  #### output : 
  <code>
 
@@ -28,7 +28,7 @@ Class for Analyzing an array and handling its values
 <hr>
 
 
-## HandleAssocArray(Array $AssocArray ,   $keyPrefix = " " , $textBetween = " " , $valSuffix = " " , $stringCapsulation = true)
+## AssocArrayPrinter(Array $AssocArray ,   $keyPrefix = " " , $textBetween = " " , $valSuffix = " " , $stringCapsulation = true)
 ### this method handling  Associative arraies ,  where  : 
 - @AssocArray is an Associative array that you want to adding an @keyPrefix before each its key , and want to adding an @valSuffix after that key's value
   and want to adding @textBetween between that key and its value
@@ -40,7 +40,7 @@ Class for Analyzing an array and handling its values
   $textBetween = ".";
   $valSuffix = " , ";
   $stringCapsulation = false;
- echo $ArrayAnalyzerOb->HandleAssocArray( $AssocArray ,   $keyPrefix , $textBetween  , $valSuffix  , $stringCapsulation  );
+ echo $ArrayAnalyzerOb->AssocArrayPrinter( $AssocArray ,   $keyPrefix , $textBetween  , $valSuffix  , $stringCapsulation  );
  #### output : 
  <code>
 
