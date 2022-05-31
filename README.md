@@ -14,13 +14,9 @@ Class for Analyzing an array and handling its values
   $ElementSuffix = " , ";
   $stringCapsulation = false;
  echo $ArrayAnalyzerOb->indexedArrayPrinter($indexedArray , $ElementPrefix  , $ElementSuffix  ,  $stringCapsulation) ;
- #### output : 
- <code>
-
+ #### output :   
     "Table_users , Table_posts , Table_comments"
-
-
-</code>
+ 
 
 
 ## if an multidimensional array will be received .... the method will be able to handle it .. don't worry
@@ -41,15 +37,9 @@ Class for Analyzing an array and handling its values
   $valSuffix = " , ";
   $stringCapsulation = false;
  echo $ArrayAnalyzerOb->AssocArrayPrinter( $AssocArray ,   $keyPrefix , $textBetween  , $valSuffix  , $stringCapsulation  );
- #### output : 
- <code>
-
-  
-  
+ #### output :  
     " users.FirstName , users.LastName , posts.title , posts.content , comments.comment "
-
-
-</code>
+ 
 
 ## if an multidimensional array will be received .... the method will be able to handle it .. don't worry
 
@@ -64,3 +54,9 @@ Class for Analyzing an array and handling its values
 
 ## isIndexed(Array $array)
 ### it is a simple method to check if an array is indexed array or not
+
+
+# Don't forget to support us on : 
+##  Facebook : https://www.facebook.com/MDRDevelopment/
+##  Instagram : https://www.instagram.com/mdr_development_tr/
+##  GitHub : https://github.com/MuhammedALDRUBI
