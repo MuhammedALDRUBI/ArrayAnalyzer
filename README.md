@@ -1,5 +1,5 @@
 # ArrayAnalyzer
-Class for Analyzing an array and handling its values
+Class for Analyzing an array and handling its values ( it only contains the methodes that requiered to QueryCustomizer class's work)
 
 ## usable Methodes :
 
